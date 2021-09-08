@@ -78,51 +78,51 @@
 <td style="width: 61.3407%; height: 18px; text-align: center;"><strong>FORMULA</strong></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>% Acum Categorias</code></td>
+<td style="width: 13.1691%; height: 19px;">% Acum Categorias</td>
 <td style="width: 61.3407%; height: 19px;"><code>% Acum Categorias = [Soma Acum Categorias] / CALCULATE([Soma de Vendas], ALL('Tabela - Produtos'))</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Atrasados</code></td>
+<td style="width: 13.1691%; height: 19px;">Atrasados</td>
 <td style="width: 61.3407%; height: 19px;"><code>Atrasados = CALCULATE([Total de Pedidos], FILTER('Tabela - Pedidos', 'Tabela - Pedidos'[Data de Entrega] &gt; 'Tabela - Pedidos'[Data Previs&atilde;o]))</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Em Transito</code></td>
+<td style="width: 13.1691%; height: 19px;">Em Transito</td>
 <td style="width: 61.3407%; height: 19px;"><code>Em Transito = CALCULATE([Total de Pedidos], FILTER('Tabela - Pedidos', 'Tabela - Pedidos'[Status do Pedido] = "Em Transito"))</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Entregues</code></td>
+<td style="width: 13.1691%; height: 19px;">Entregues</td>
 <td style="width: 61.3407%; height: 19px;"><code>Entregues = CALCULATE([Total de Pedidos], FILTER('Tabela - Pedidos', 'Tabela - Pedidos'[Status do Pedido] = "Entregue"))</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>No Prazo</code></td>
+<td style="width: 13.1691%; height: 19px;">No Prazo</td>
 <td style="width: 61.3407%; height: 19px;"><code>No Prazo = CALCULATE([Total de Pedidos], FILTER('Tabela - Pedidos', 'Tabela - Pedidos'[Data de Entrega] &lt;= 'Tabela - Pedidos'[Data Previs&atilde;o]))</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Qtd Produtos Vendidos</code></td>
+<td style="width: 13.1691%; height: 19px;">Qtd Produtos Vendidos</td>
 <td style="width: 61.3407%; height: 19px;"><code>Qtd Produtos Vendidos = SUM('Tabela - Pedidos'[Quantidade])</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Rank de Categoria</code></td>
+<td style="width: 13.1691%; height: 19px;">Rank de Categoria</td>
 <td style="width: 61.3407%; height: 19px;"><code>Rank de Categoria = RANKX(ALLSELECTED('Tabela - Produtos'), [Soma de Vendas])</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Soma Acum Categorias</code></td>
+<td style="width: 13.1691%; height: 19px;">Soma Acum Categorias</td>
 <td style="width: 61.3407%; height: 19px;"><code>Soma Acum Categorias = CALCULATE([Soma de Vendas], TOPN([Rank de Categoria], ALL('Tabela - Produtos'),[Soma de Vendas],DESC))</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Soma de Vendas</code></td>
+<td style="width: 13.1691%; height: 19px;">Soma de Vendas</td>
 <td style="width: 61.3407%; height: 19px;"><code>Soma de Vendas = SUMX('Tabela - Pedidos', 'Tabela - Pedidos'[Quantidade] * RELATED('Tabela - Produtos'[Pre&ccedil;o]))</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Total de Pedidos</code></td>
+<td style="width: 13.1691%; height: 19px;">Total de Pedidos</td>
 <td style="width: 61.3407%; height: 19px;"><code>Total de Pedidos = COUNT('Tabela - Pedidos'[ID Pedido])</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Veiculos Disponiveis</code></td>
+<td style="width: 13.1691%; height: 19px;">Veiculos Disponiveis</td>
 <td style="width: 61.3407%; height: 19px;"><code>Veiculos Disponiveis = CALCULATE(COUNT('Tabela - Ve&iacute;culos'[ID Vei&shy;culos]), FILTER('Tabela - Ve&iacute;culos', 'Tabela - Ve&iacute;culos'[Status] = "Disponi&shy;vel"))</code></td>
 </tr>
 <tr style="height: 19px;">
-<td style="width: 13.1691%; height: 19px;"><code>Veiculos Ocupados</code></td>
+<td style="width: 13.1691%; height: 19px;">Veiculos Ocupados</td>
 <td style="width: 61.3407%; height: 19px;"><code>Veiculos Ocupados = CALCULATE(COUNT('Tabela - Ve&iacute;culos'[ID Vei&shy;culos]), FILTER('Tabela - Ve&iacute;culos', 'Tabela - Ve&iacute;culos'[Status] = "Ocupado"))</code></td>
 </tr>
 </tbody>
