@@ -2,12 +2,12 @@
 <p style="text-align: justify;">This challenge consists in develop skills in Business Intelligence and put in practice all obtained knowledge in Power BI. The challenge will take 4 weeks divided in 3 different projects with different &nbsp;levels of complexity:</p>
 <p>&nbsp;</p>
 <ul>
-<li>Week 01: Logistics Challenge Dashboard (AluraLog)</li>
+<li><a href="#week01">Week 01: Logistics Challenge Dashboard (AluraLog)</a></li>
 <li>Week 02: Coming Soon&hellip;</li>
 <li>Week 03 and 04: Coming Soon&hellip;</li>
 </ul>
 <p>&nbsp;</p>
-<h3>🚀&nbsp; Week 01: Logistics Challenge Dashboard (AluraLog)</h3>
+<h3>🚀&nbsp; <a id="week01"</a>Week 01: Logistics Challenge Dashboard (AluraLog)</h3>
 <p style="text-align: justify;">The Alura Log manager is facing some work changes due to the high demand of logistics services during the pandemic time. She wants to keep the quality of her service and she needs constantly follow up the KPI&rsquo;s to take correct decisions. &nbsp;To help her in this analysis a logistics dashboard was created with the following information provided by the customer dataset.</p>
 <p style="text-align: justify;">
   
