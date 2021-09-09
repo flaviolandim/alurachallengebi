@@ -139,3 +139,8 @@
 <p style="text-align: justify;">
   
   ![image](https://user-images.githubusercontent.com/20172962/132563353-d57a5e63-fc22-42ad-bcee-efd1d7a9ed99.png)</p>
+  
+<p>Some relashionships was done between tables, such as the image bellow:</p>
+
+![image](https://user-images.githubusercontent.com/20172962/132605630-f1248905-0e82-4ce4-aee6-da417a95d20d.png)
+
