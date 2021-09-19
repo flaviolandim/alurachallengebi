@@ -237,6 +237,10 @@
 
 ![image](https://user-images.githubusercontent.com/20172962/133937047-45c72be5-80ed-48e4-93a5-acc5749e2307.png)
 
+<p>Pandas Code is located in the links bellow using Jupyter Notebook:</p>
 
+<p><a href="https://github.com/flaviolandim/alurachallengebi/blob/master/Week02/AluraShop_IdadeGenero.ipynb">https://github.com/flaviolandim/alurachallengebi/blob/master/Week02/AluraShop_IdadeGenero.ipynb</a></p>
+
+<p><a href="https://github.com/flaviolandim/alurachallengebi/blob/master/Week02/AluraShop_Dispositivos-V2.ipynb">https://github.com/flaviolandim/alurachallengebi/blob/master/Week02/AluraShop_Dispositivos-V2.ipynb</a></p>
 
 <p>&nbsp;&nbsp;</p>
