@@ -4,7 +4,7 @@
 <ul>
 <li><a href="#week01">Week 01: Logistics Challenge Dashboard (AluraLog)</a></li>
 <li><a href="#week02">Week 02: Marketing Dashboard (AluraShop)</a></li>
-<li>Week 03 and 04: Coming Soon&hellip;</li>
+<li><a href="#week03">Week 03 and 04: Financial Challenge Dashboard (AluraStore)</a></li>
 </ul>
 <p>&nbsp;</p>
 <h3>🚀&nbsp; <a id="week01"</a>Week 01: Logistics Challenge Dashboard (AluraLog)</h3>
@@ -243,4 +243,72 @@
 
 <p><a href="https://github.com/flaviolandim/alurachallengebi/blob/master/Week02/AluraShop_Dispositivos-V2.ipynb">https://github.com/flaviolandim/alurachallengebi/blob/master/Week02/AluraShop_Dispositivos-V2.ipynb</a></p>
 
-<p>&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+
+<h3>🚀&nbsp; <a id="week03"</a>Week 03 and 04: Financial Challenge Dashboard (AluraStore)</h3>
+
+
+<p>In this dashboard my mission was to develop a financial report with two pages in which the first one will show an overview of all financial area and the second one will focus on a scenario analysis.</p>
+<p>Take a look in the online dashboard: <a href="https://bit.ly/3zOYt4F">https://bit.ly/3zOYt4F</a></p>
+
+![image](https://user-images.githubusercontent.com/20172962/135364847-49bf09b1-16c0-49a1-b0aa-e344bb5a4b5e.png)
+
+
+<p>The customer asked to show the following information in the dashboard:</p>
+
+<p>✔ Calculate de company gain</p>
+
+![image](https://user-images.githubusercontent.com/20172962/135364857-bf3deefd-a133-497f-95f6-51c3853bc655.png)
+
+
+<p>To calculate this information it was necessary to create another 3 measures Revenue / Total Production Cost / Expenses and result would be like that:</p>
+<p><code>Lucro = [Receita] - [Custos total de produ&ccedil;&atilde;o] - [Despesas]</code></p>
+
+<p>✔ Show the Total Production Costs</p>
+
+![image](https://user-images.githubusercontent.com/20172962/135364893-53dba33c-6a59-49fb-866f-7cd0469034e2.png)
+
+
+<p>For this data it was necessary to multiply the number or requests by the individual costs, using a SUMX function, considering a line to line calculation:</p>
+<p><code>Custos total de produ&ccedil;&atilde;o = SUMX(Pedidos, Pedidos[quantidade] * RELATED(Produtos[Custos]))</code></p>
+
+<p>✔&nbsp;Show the expense Information</p>
+
+![image](https://user-images.githubusercontent.com/20172962/135364912-d865fb11-1442-4091-b1d9-4d824429b829.png)
+
+
+<p>To show this value the it was used the SUMX function and sum the taxes with shipment:</p>
+<p><code>Despesas = SUMX('Notas Fiscais', 'Notas Fiscais'[imposto] + 'Notas Fiscais'[Frete])</code></p>
+
+<p>✔&nbsp;Show the revenue</p>
+
+![image](https://user-images.githubusercontent.com/20172962/135364923-f4f7179c-a77a-42d7-b896-839b354feac7.png)
+
+
+<p>Revenue was calculates also using SUMX and RELATED function to multiply requests quantity by its costs:</p>
+<p><code>Custos total de produ&ccedil;&atilde;o = SUMX(Pedidos, Pedidos[quantidade] * RELATED(Produtos[Custos]))</code></p>
+
+<p>✔ Filter by year</p>
+
+![image](https://user-images.githubusercontent.com/20172962/135364932-117af735-38a2-451b-b2b5-4c427beb86b1.png)
+
+
+<p>✔&nbsp;The gain was compared with product salle and also exhibited in a individual cascade chart.</p>
+
+![image](https://user-images.githubusercontent.com/20172962/135364948-8e26b0d5-74a7-4954-ad41-2834b6f86b3b.png)
+
+
+![image](https://user-images.githubusercontent.com/20172962/135364958-b844609b-bc65-425f-af7c-917f2a6383ea.png)
+
+
+<p>✔ A rank of the best sallers was created</p>
+
+![image](https://user-images.githubusercontent.com/20172962/135364983-52c204eb-6ef7-4943-8458-460bffa083b6.png)
+
+
+<p>✔ Variables was created to simulate some scenarios</p>
+
+![image](https://user-images.githubusercontent.com/20172962/135364993-3130a348-3a8d-4ff6-8717-c135d26f11bd.png)
+
+![image](https://user-images.githubusercontent.com/20172962/135364999-e5a94f0d-34dc-4d2a-9576-8a5cb25c8a00.png)
+
