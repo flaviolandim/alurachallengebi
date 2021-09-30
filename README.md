@@ -11,6 +11,8 @@
 <p style="text-align: justify;">The Alura Log manager is facing some work changes due to the high demand of logistics services during the pandemic time. She wants to keep the quality of her service and she needs constantly follow up the KPI&rsquo;s to take correct decisions. &nbsp;To help her in this analysis a logistics dashboard was created with the following information provided by the customer dataset.</p>
 <p style="text-align: justify;">
   
+  <p>Take a look in the online dashboard: <a href="https://bit.ly/3F6UYKL">https://bit.ly/3F6UYKL</a></p>
+  
   ![image](https://user-images.githubusercontent.com/20172962/132557228-52a23360-5999-4659-95cf-23fc47afc8c6.png)</p>
   
 <p>✔ How many customers purchases was delivered on time?</p>
@@ -147,6 +149,8 @@
 <h3>🚀&nbsp; <a id="week02"</a>Week 02: Marketing Dashboard (AluraShop)</h3>
 
 <p>The Alura Shop have invested in publicity to get more visibility into the market and now its managers needs to know if the investment was really effective.</p>
+
+<p>Take a look in the online dashboard: <a href="https://bit.ly/2Y31t0k">https://bit.ly/2Y31t0k</a></p>
 
 ![image](https://user-images.githubusercontent.com/20172962/133936572-aef822ff-2ad0-4362-ab25-235bea1cb59d.png)
 
