@@ -249,7 +249,7 @@
 
 
 <p>In this dashboard my mission was to develop a financial report with two pages in which the first one will show an overview of all financial area and the second one will focus on a scenario analysis.</p>
-<p>Take a look in the online dashboard: <a href="https://bit.ly/3zOdoMA">https://bit.ly/3zOYt4F</a></p>
+<p>Take a look in the online dashboard: <a href="https://bit.ly/3zOdoMA">https://bit.ly/3zOdoMA</a></p>
 
 ![image](https://user-images.githubusercontent.com/20172962/135364847-49bf09b1-16c0-49a1-b0aa-e344bb5a4b5e.png)
 
